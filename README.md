@@ -216,8 +216,8 @@ from mapborn import Map
 
 def test_mapborn_scenarios():
 
-    shp_path = r"E:\青藏高原基础数据集\青藏高原边界数据总集\青藏高原边界数据总集\TPBoundary_new(2021)\TPBoundary_new(2021).shp"
-    tif_path = r"E:\TP_DSM_SR_PIMSR\DATA\DEM_Process\COP_DEM_mosaic_clip_buffer_prj_40_down_500.tif"
+    shp_path = r"E:\TPBoundary_new.shp"
+    tif_path = r"E:\DEM.tif"
 
     if not os.path.exists(shp_path):
         print(f"[Error] 找不到矢量文件: {shp_path}")
