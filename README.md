@@ -197,6 +197,3 @@ Mapborn 提供了高度定制化的地图整饰要素，包括指北针、比例
 
 - path (字符串): 输出文件的完整路径，包含文件名与后缀（如 result.png, map.pdf）。
 - dpi (整数): 输出图像的分辨率，默认值为 300。
-
-## 8. 源代码和 whl 文件
-https://github.com/wqlin08/mapborn-Geographic-mapping-package
